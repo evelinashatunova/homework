@@ -13,7 +13,6 @@ namespace task7_28_
             double x;
             Console.WriteLine("Введите X");
             x = double.Parse(Console.ReadLine());
-            
             Console.WriteLine(f(x));
             Console.ReadKey();
         }
@@ -29,15 +28,12 @@ namespace task7_28_
             {
                 k = Math.Sqrt(x);
                 return k;
-
             }
             else
             {
                 k = 1;
                 return k;
             }
-
-           
         }
     }
     }
