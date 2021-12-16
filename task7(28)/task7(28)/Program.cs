@@ -14,24 +14,24 @@ namespace task7_28_
             Console.WriteLine("Введите X");
             x = double.Parse(Console.ReadLine());
             
-            Console.WriteLine(fun(x));
+            Console.WriteLine(f(x));
             Console.ReadKey();
         }
-        static double fun (double x)
+        static double f (double x)
         {
             double k;
-            if(x<0)
+            if (x < 0)
             {
-                 k = 0;
+                k = 0;
                 return k;
             }
-            else if(0<=x && x<=1)
-             {
+            else if (0 <= x && x <= 1)
+            {
                 k = Math.Sqrt(x);
                 return k;
 
             }
-            else 
+            else
             {
                 k = 1;
                 return k;
